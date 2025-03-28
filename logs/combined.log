@@ -1,0 +1,8 @@
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","query":{},"service":"calculator-microservice","url":"/"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","query":{},"service":"calculator-microservice","url":"/favicon.ico"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","query":{"num1":"5","num2":"3"},"service":"calculator-microservice","url":"/add?num1=5&num2=3"}
+{"level":"info","message":"Addition: 5 + 3 = 8","service":"calculator-microservice"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","query":{"num1":"6","num2":"7"},"service":"calculator-microservice","url":"/multiply?num1=6&num2=7"}
+{"level":"info","message":"Multiplication: 6 * 7 = 42","service":"calculator-microservice"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","query":{"num1":"6","num2":"yh"},"service":"calculator-microservice","url":"/multiply?num1=6&num2=yh"}
+{"level":"error","message":"Multiplication Error: Both inputs must be numbers. | num1=6, num2=yh","service":"calculator-microservice"}
