@@ -6,3 +6,6 @@
 {"level":"info","message":"Multiplication: 6 * 7 = 42","service":"calculator-microservice"}
 {"ip":"::1","level":"info","message":"Incoming request","method":"GET","query":{"num1":"6","num2":"yh"},"service":"calculator-microservice","url":"/multiply?num1=6&num2=yh"}
 {"level":"error","message":"Multiplication Error: Both inputs must be numbers. | num1=6, num2=yh","service":"calculator-microservice"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","query":{},"service":"calculator-microservice","url":"/"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","query":{"num1":"20","num2":"5"},"service":"calculator-microservice","url":"/divide?num1=20&num2=5"}
+{"level":"info","message":"Division: 20 / 5 = 4","service":"calculator-microservice"}
